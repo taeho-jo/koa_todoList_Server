@@ -1,0 +1,32 @@
+{
+  "name": "koa-example",
+  "version": "1.0.0",
+  "description": "koa-example-project",
+  "main": "index.js",
+  "author": "jotang",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_PATH=src node src",
+    "dev": "nodemon --watch src/ src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "0.0.16",
+    "koa-router": "^8.0.8",
+    "mongoose": "^5.9.7",
+    "vue-material": "^1.0.0-beta-11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.2"
+  }
+}
